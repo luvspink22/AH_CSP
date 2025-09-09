@@ -7,13 +7,13 @@ print("Number (1-10):", random_number)
 #number between 100 and 1000
 big_number = 300
 print("Number (100-1000):", big_number)
-# breakfast
+#breakfast
 breakfast = "Bagel"
 print("Breakfast:", breakfast)
 #favorite Color
 favorite_color = "Pink" 
 print("Favorite color", favorite_color)
-#School_name
+#School
 School_name = "UCAS"
 print("School name:", School_name)
 #Year
