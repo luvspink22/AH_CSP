@@ -4,7 +4,7 @@
 #include <time.h>
 
 int main() {
-    // get the current system time
+    // get the current time
     time_t t;
     struct tm *tm_info;
     time(&t);
@@ -12,7 +12,7 @@ int main() {
 
     int hour = tm_info->tm_hour;
 
-    // print the right greeting depending on the hour
+    // print the greeting depending on the hour
     if (hour >= 5 && hour <= 11) {
         printf("Good Morning!\n");
     } 
